@@ -29,7 +29,7 @@ app.get("/", (req, res) => {
 // Routes
 app.use("/api/users", userRoutes);
 
-// Old code for non-serverless manul deploy
+// Old code for non-serverless manual deploy
 // const runServer = async function () {
 //     try {
 //         await mongoose.connect(process.env.MONGODB_URI).then(() => {
@@ -47,7 +47,7 @@ app.use("/api/users", userRoutes);
 
 //
 // This is a setup for deploying on vercel serverless setup
-
+//
 // Connect to MongoDB
 let isConnected = false;
 const connectToDatabase = async () => {
