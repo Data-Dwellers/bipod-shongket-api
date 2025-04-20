@@ -29,21 +29,23 @@ app.get("/", (req, res) => {
 // Routes
 app.use("/api/users", userRoutes);
 
-// Old code for non-serverless manual deploy
-// const runServer = async function () {
-//     try {
-//         await mongoose.connect(process.env.MONGODB_URI).then(() => {
-//             console.log("Database connected...");
-//         });
-//     } catch (error) {
-//         console.log("Error connecting to database:", error);
-//     }
-//     app.listen(PORT, () => {
-//         console.log(`App is running on port ${PORT}`);
-//     });
-// };
+// Code for non-serverless manual deploy
+if (require.main === module) {
+    const runServer = async function () {
+        try {
+            await mongoose.connect(process.env.MONGODB_URI).then(() => {
+                console.log("Database connected...");
+            });
+        } catch (error) {
+            console.log("Error connecting to database:", error);
+        }
+        app.listen(PORT, () => {
+            console.log(`App is running on port ${PORT}`);
+        });
+    };
 
-// module.exports = runServer;
+    runServer();
+}
 
 //
 // This is a setup for deploying on vercel serverless setup
