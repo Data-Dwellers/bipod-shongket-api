@@ -5,6 +5,9 @@ const mongoose = require("mongoose");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const userRoutes = require("../routes/userRoutes");
+const sosRequestRoutes = require("../routes/sosRequestRoutes");
+const sosResponseRoutes = require("../routes/sosResponseRoutes");
+const reportRoutes = require("../routes/reportRoutes");
 const morgan = require("morgan");
 
 // middlewares
@@ -28,6 +31,9 @@ app.get("/", (req, res) => {
 
 // Routes
 app.use("/api/users", userRoutes);
+app.use("/api/sos-requests", sosRequestRoutes);
+app.use("/api/sos-responses", sosResponseRoutes);
+app.use("/api/reports", reportRoutes);
 
 // Code for non-serverless manual deploy
 if (require.main === module) {
