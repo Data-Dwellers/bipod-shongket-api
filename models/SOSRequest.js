@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const sosRequestSchema = new mongoose.Schema({
     owner: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
-    date: new Date(""),
+    date: { type: Date, default: Date.now },
     location: {
         lat: Number,
         long: Number,
