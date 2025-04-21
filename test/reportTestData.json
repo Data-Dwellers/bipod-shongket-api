@@ -1,0 +1,67 @@
+[
+    {
+        "_id": "60d21b4667d0d8992e610e01",
+        "owner": "60d21b4667d0d8992e610c10",
+        "incedentType": "Flood",
+        "description": "Severe flooding in residential area, approximately 3 feet of water in streets and ground floors.",
+        "incedentDate": "2025-04-10T06:30:00.000Z",
+        "reportingDate": "2025-04-10T08:15:00.000Z",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "street": "Gulshan Avenue"
+        }
+    },
+    {
+        "_id": "60d21b4667d0d8992e610e02",
+        "owner": "60d21b4667d0d8992e610c11",
+        "incedentType": "Fire",
+        "description": "Building fire affecting the third and fourth floors of an apartment complex. Fire department dispatched.",
+        "incedentDate": "2025-04-12T14:20:00.000Z",
+        "reportingDate": "2025-04-12T14:25:00.000Z",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "street": "Mirpur Road"
+        }
+    },
+    {
+        "_id": "60d21b4667d0d8992e610e03",
+        "owner": "60d21b4667d0d8992e610c12",
+        "incedentType": "Building Collapse",
+        "description": "Partial collapse of an old commercial structure. No casualties reported but area needs evacuation.",
+        "incedentDate": "2025-04-15T11:45:00.000Z",
+        "reportingDate": "2025-04-15T12:10:00.000Z",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Chittagong",
+            "street": "Port Connect Road"
+        }
+    },
+    {
+        "_id": "60d21b4667d0d8992e610e04",
+        "owner": "60d21b4667d0d8992e610c13",
+        "incedentType": "Road Accident",
+        "description": "Multi-vehicle collision on main highway. Traffic blocked in both directions. Emergency services needed.",
+        "incedentDate": "2025-04-18T17:30:00.000Z",
+        "reportingDate": "2025-04-18T17:35:00.000Z",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "street": "Dhaka-Mymensingh Highway"
+        }
+    },
+    {
+        "_id": "60d21b4667d0d8992e610e05",
+        "owner": "60d21b4667d0d8992e610c14",
+        "incedentType": "Cyclone Damage",
+        "description": "Severe infrastructure damage after cyclone. Power lines down, trees fallen, roads blocked.",
+        "incedentDate": "2025-04-20T04:00:00.000Z",
+        "reportingDate": "2025-04-20T09:30:00.000Z",
+        "location": {
+            "country": "Bangladesh",
+            "city": "Cox's Bazar",
+            "street": "Beach Road"
+        }
+    }
+]

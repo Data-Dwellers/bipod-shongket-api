@@ -1,0 +1,172 @@
+[
+    {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "age": 30,
+        "phone": 8801234567890,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Dhaka",
+            "street": "123 Main Street",
+            "zipCode": 1205
+        },
+        "currentLocation": {
+            "lat": 23.8103,
+            "long": 90.4125
+        }
+    },
+    {
+        "name": "Sarah Smith",
+        "email": "sarah.smith@example.com",
+        "age": 25,
+        "phone": 8801987654321,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Chittagong",
+            "street": "45 Port Road",
+            "zipCode": 4000
+        },
+        "currentLocation": {
+            "lat": 22.3569,
+            "long": 91.7832
+        }
+    },
+    {
+        "name": "Mohammad Rahman",
+        "email": "m.rahman@example.com",
+        "age": 35,
+        "phone": 8801712345678,
+        "isAdmin": true,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Sylhet",
+            "street": "78 Tea Garden Avenue",
+            "zipCode": 3100
+        },
+        "currentLocation": {
+            "lat": 24.8949,
+            "long": 91.8687
+        }
+    },
+    {
+        "name": "Fatima Begum",
+        "email": "f.begum@example.com",
+        "age": 28,
+        "phone": 8801611222333,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Khulna",
+            "street": "56 River View Road",
+            "zipCode": 9100
+        },
+        "currentLocation": {
+            "lat": 22.8456,
+            "long": 89.5403
+        }
+    },
+    {
+        "name": "Rahim Khan",
+        "email": "rahim.k@example.com",
+        "age": 42,
+        "phone": 8801511333444,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Rajshahi",
+            "street": "102 College Road",
+            "zipCode": 6000
+        },
+        "currentLocation": {
+            "lat": 24.3745,
+            "long": 88.6042
+        }
+    },
+    {
+        "name": "Nusrat Jahan",
+        "email": "nusrat.j@example.com",
+        "age": 23,
+        "phone": 8801711444555,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Barisal",
+            "street": "33 Riverside Lane",
+            "zipCode": 8200
+        },
+        "currentLocation": {
+            "lat": 22.7010,
+            "long": 90.3535
+        }
+    },
+    {
+        "name": "Karim Ahmed",
+        "email": "k.ahmed@example.com",
+        "age": 38,
+        "phone": 8801811555666,
+        "isAdmin": true,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Rangpur",
+            "street": "15 Station Road",
+            "zipCode": 5400
+        },
+        "currentLocation": {
+            "lat": 25.7439,
+            "long": 89.2752
+        }
+    },
+    {
+        "name": "Taslima Akter",
+        "email": "taslima.a@example.com",
+        "age": 27,
+        "phone": 8801911666777,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Comilla",
+            "street": "67 Market Road",
+            "zipCode": 3500
+        },
+        "currentLocation": {
+            "lat": 23.4682,
+            "long": 91.1792
+        }
+    },
+    {
+        "name": "Imran Hossain",
+        "email": "imran.h@example.com",
+        "age": 31,
+        "phone": 8801777888999,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Mymensingh",
+            "street": "29 Park Avenue",
+            "zipCode": 2200
+        },
+        "currentLocation": {
+            "lat": 24.7471,
+            "long": 90.4203
+        }
+    },
+    {
+        "name": "Ayesha Siddiqua",
+        "email": "ayesha.s@example.com",
+        "age": 29,
+        "phone": 8801677999000,
+        "isAdmin": false,
+        "defaultAdress": {
+            "country": "Bangladesh",
+            "city": "Narayanganj",
+            "street": "42 Industrial Zone",
+            "zipCode": 1400
+        },
+        "currentLocation": {
+            "lat": 23.6238,
+            "long": 90.4998
+        }
+    }
+]
