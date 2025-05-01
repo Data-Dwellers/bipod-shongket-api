@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const reportSchema = new mongoose.Schema({
-    owner: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+    owner: String,
+    ownerName: String,
     incedentType: String,
     description: String,
     incedentDate: Date,
@@ -11,6 +12,12 @@ const reportSchema = new mongoose.Schema({
         city: String,
         street: String,
     },
+    comments: [{
+        text: String,
+        authorName: String,
+        authorEmail: String,
+        createdAt: { type: Date, default: Date.now }
+    }]
 });
 
 const Report = mongoose.model("Report", reportSchema);
