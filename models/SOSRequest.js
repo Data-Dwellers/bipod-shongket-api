@@ -8,6 +8,7 @@ const sosRequestSchema = new mongoose.Schema({
     lat: Number,
     long: Number,
   },
+  isActive: Boolean
 });
 
 const SOSRequest = mongoose.model("SOSReqeust", sosRequestSchema);
