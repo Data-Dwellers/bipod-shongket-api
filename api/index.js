@@ -9,6 +9,7 @@ const sosRequestRoutes = require("../routes/sosRequestRoutes");
 const sosResponseRoutes = require("../routes/sosResponseRoutes");
 const reportRoutes = require("../routes/reportRoutes");
 const morgan = require("morgan");
+const specialUserRoutes = require("../routes/specialUserRoutes");
 
 // middlewares
 app.use(morgan("dev"));
@@ -34,6 +35,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/sos-requests", sosRequestRoutes);
 app.use("/api/sos-responses", sosResponseRoutes);
 app.use("/api/reports", reportRoutes);
+app.use("/api/special-users", specialUserRoutes);
 
 // Code for non-serverless manual deploy
 if (require.main === module) {
