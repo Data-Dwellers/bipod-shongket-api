@@ -6,18 +6,22 @@ const userSchema = new mongoose.Schema({
     age: Number,
     phone: Number,
     isAdmin: Boolean,
-
-    defaultAdress: {
-        country: String,
-        city: String,
-        street: String,
-        zipCode: Number,
+    defaultLocation: {
+        name: String,
+        lat: String,
+        long: String
     },
-
-    currentLocation: {
-        lat: Number,
-        long: Number,
-    },
+    emergency_contact: {
+        name: String,
+        phone: String,
+        email: String,
+        relation: String,
+        location: {
+            name: String,
+            lat: Number,
+            long: Number,
+        }
+    }
 });
 
 const User = mongoose.model("User", userSchema);
